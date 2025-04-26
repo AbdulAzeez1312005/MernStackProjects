@@ -3,7 +3,7 @@ const axios = require("axios");
 const router = express.Router();
 
 const NEWS_API_URL =
-  "https://newsapi.org/v2/top-headlines?country=in&apiKey=YOUR_NEWS_API_KEY"; // Replace with your API key
+  "https://newsapi.org/v2/top-headlines?country=in&apiKey=52e5bca649284c7ca5de4d02c723d5c3"; // Replace with your API key
 
 router.get("/", async (req, res) => {
   try {
