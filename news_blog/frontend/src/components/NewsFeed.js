@@ -4,7 +4,7 @@ const NewsFeed = () => {
   const [news, setNews] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/news")
+    fetch("https://mernstackprojects.onrender.com")
       .then((response) => response.json())
       .then((data) => setNews(data.articles || []))
       .catch((error) => console.error("Error fetching news:", error));
